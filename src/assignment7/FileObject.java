@@ -18,4 +18,8 @@ public class FileObject {
     public int getFileNum() {
         return fileNum;
     }
+
+    public String getFileName(){
+        return file.getName();
+    }
 }
